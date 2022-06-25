@@ -9,6 +9,7 @@ on:
     branches: [ "master" ]
     paths:
       - 'library-demo/**'
+  workflow_dispatch:
 
 env:
   LIBRARY_PATH: './library-demo'
