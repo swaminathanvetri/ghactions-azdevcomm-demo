@@ -1,6 +1,6 @@
 ﻿using System;
 namespace library_demo;
-public class 
+public class MyClasslib
 {
     public void SayHello(string message)
     {
