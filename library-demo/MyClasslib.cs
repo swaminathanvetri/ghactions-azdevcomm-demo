@@ -1,10 +1,12 @@
 ﻿using System;
-namespace library_demo;
-public class MyClasslib
+namespace library_demo
 {
-    //This method is used to print a message
-    public void SayHello(string message)
+    public class MyClasslib
     {
-        Console.WriteLine($"Hello {message}");
+        //This method is used to print a message
+        public void SayHello(string message)
+        {
+            Console.WriteLine($"Hello {message}");
+        }
     }
 }
